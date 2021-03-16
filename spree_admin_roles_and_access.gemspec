@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_admin_roles_and_access'
-  s.version     = '4-0-1'
+  s.version     = '4-2-0'
   s.summary     = 'Dynamically defines roles and grants it permissions'
   s.required_ruby_version = '>= 2.2.0'
   s.files = Dir['LICENSE', 'README.md', 'app/**/*', 'config/**/*', 'lib/**/*', 'db/**/*']
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.2.0', '<= 4.0.1'
+  spree_version = '>= 3.2.0', '<= 4.2.0'
 
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_auth_devise'
